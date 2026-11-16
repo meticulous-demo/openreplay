@@ -42,7 +42,7 @@ function TopHeader({ showLogo }: Props) {
         alignItems: 'center',
         height: '60px',
       }}
-      className={showLogo ? 'justify-between' : 'justify-end'}
+      className={`border-b ${showLogo ? 'justify-between' : 'justify-end'}`}
     >
       {/* the logo normally sits at the top of the sider, so it stays put with the
           menu; it falls back to the header on routes that render no sider */}
